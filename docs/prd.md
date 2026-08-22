@@ -74,5 +74,5 @@
 
 ### User Settings and Profile Management
 - Users can update their profile details.
-- Users can manage preferences (e.g., voice on/off, notification settings).
+- Manage preferences (e.g., voice on/off, notification settings).
 - Users can delete their account and associated data.
