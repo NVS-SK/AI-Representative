@@ -2,7 +2,7 @@
 
 ## Project name: AI Representative.
 
-## Vision: Build an AI Representative that communicates naturally through voice and text, remembers past conversations, understands uploaded documents, uses external tools when needed, and acts as a reliable digital representative for the user. 
+## Vision: To create a consent-based personal AI representative that acts as a digital extension of the individual, helping others understand their identity, knowledge, personality, and style of communication through what they choose to share. 
 
 ## Problem statement: Current AI assistants are often split across separate apps for chat, document search, web browsing, and task execution. AI Representative brings these together on a single platform, with long-term memory and modular tools. 
 
