@@ -48,4 +48,31 @@
 - Conversation memory.
 - Document upload and retrieval.
 - Web search integration.
-- user settings and profile management.
+- User settings and profile management.
+
+### Voice and Text Conversations
+- Users can send and receive text messages with the AI.
+- Users can speak to the AI using voice input.
+- The AI responds in text, and optionally reads responses aloud.
+- Conversations feel natural and support follow-up questions.
+
+### Conversation Memory
+- The AI remembers key details from past conversations.
+- Users can reference earlier discussions without repeating context.
+- Users can view or clear their conversation history.
+
+### Document Upload and Retrieval
+- Users can upload documents (e.g., PDFs, text files).
+- The AI can read and understand uploaded document content.
+- Users can ask questions about their uploaded documents.
+- The AI retrieves relevant sections instead of the entire document.
+
+### Web Search Integration
+- The AI can search the web when it needs current information.
+- Search results are summarized clearly for the user.
+- The AI distinguishes between its own knowledge and web-sourced info.
+
+### User Settings and Profile Management
+- Users can update their profile details.
+- Users can manage preferences (e.g., voice on/off, notification settings).
+- Users can delete their account and associated data.
