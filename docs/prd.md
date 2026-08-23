@@ -84,3 +84,14 @@
 
 ### Permission and Access Control
 - Users control what data and capabilities their AI rep can access.
+
+## User Flow
+1. Sign up. *(MVP)*
+2. Complete onboarding assessment. *(MVP)*
+3. Create AI rep. *(MVP)*
+4. Upload documents. *(MVP)*
+5. Chat with AI rep. *(MVP)*
+6. Manage memory and settings. *(MVP)*
+7. Share or publish. *(Future)*
+
+*Note: "Share or publish" reflects the long-term vision for AI Representative and is planned as a Future Feature, not part of MVP.*
