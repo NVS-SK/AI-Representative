@@ -4,7 +4,7 @@
 
 ## Vision: To create a consent-based personal AI representative that acts as a digital extension of the individual, helping others understand their identity, knowledge, personality, and style of communication through what they choose to share. 
 
-## Problem statement: Current AI assistants are often split across separate apps for chat, document search, web browsing, and task execution. AI Representative brings these together on a single platform, with long-term memory and modular tools. 
+## Problem statement: Individuals today are represented online through scattered profiles, resumes, chats, and social posts, but none of these capture who they really are or how they think. As a result, people repeatedly explain themselves to friends, clients, or hiring managers and lack a personal memory system to track their own growth, skills, and updates over time. 
 
 ## Objectives: enable natural voice and text conversations, maintain long-term memory, support document upload and knowledge retrieval, integrate web search and external tools, and build a secure and scalable architecture.
 
