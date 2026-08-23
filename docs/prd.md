@@ -56,6 +56,7 @@ Beyond the current text and voice-based AI Representative, the long-term vision 
 - Simple, consistent across devices.
 
 ## Functional Requirements
+*Note: This section describes full intended product behavior. Some items (e.g., Web Search Integration) are planned as Future Features and are not part of the current MVP.*
 
 ### User Authentication
 - Users can sign up, log in, and log out securely.
@@ -101,10 +102,37 @@ Beyond the current text and voice-based AI Representative, the long-term vision 
 ## System Architecture
 The system follows a modular architecture where the front end, back end, AI model layer, memory system, document retrieval system, and external tool layer work together.
 
-- **Frontend** provides the user interface for sign up, onboarding, chat, document upload, profile settings, and AI rep management.
+- **Frontend** provides the user interface for sign-up, onboarding, chat, document upload, profile settings, and AI rep management.
 - **Backend** handles authentication, user data, permissions, conversation requests, and communication between modules.
 - **AI Model Layer** processes conversations and generates responses.
 - **Memory System** stores important user details over time.
 - **Document Retrieval** reads and fetches relevant content.
 - **External Tool Layer** supports future integrations.
 - **Database and Storage** securely hold profiles, conversations, memory data, documents, and settings.
+
+## Data Flow
+1. User signs up and completes personal onboarding.
+2. Profile and permissions data go to the backend and database.
+3. Documents are uploaded, processed, and stored for retrieval.
+4. During chat, requests go from the front end to the back end to the AI model layer.
+5. Memory and retrieval systems supply relevant context.
+6. The AI response returns to the user via the front end.
+
+*Future note: An avatar or VR layer would use the same AI and memory systems with an additional 3D interface layer.*
+
+## Tech Stack
+
+### Frontend
+- Flutter / Dart.
+
+### Backend
+- Python / FastAPI.
+
+### Database
+- PostgreSQL (with pgvector extension for memory and document retrieval).
+
+### AI Layer
+- GPT API (initial integration).
+
+### Hosting & Infrastructure
+- Render or Railway.
