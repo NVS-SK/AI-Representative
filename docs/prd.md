@@ -30,59 +30,57 @@
 - Advanced analytics.
 - Multi-language support.
 
-## Non-functional requirements
+## Non-Functional Requirements
 
-### Performance. 
-- Low-latency responses. 
-- Smooth real-time voice interactions.
-  
-### Security. Secure storage of user data. 
-- Authentication and authorization.
-- Encryption of sensitive information.
+### Performance
+- Low latency responses.
+- Smooth voice interactions.
 
-### Scalability. 
-- Support increasing numbers of users. 
-- Allow easy integration of new AI models and tools.
+### Security
+- Secure storage.
+- Encryption.
+- Proper authentication.
 
-### Reliability.
+### Scalability
+- Supports growth and new integrations.
+
+### Reliability
 - Stable operation with graceful error handling.
-- High system availability.
-  
-### Usability.
-- Simple, intuitive interface.
-- Consistent experience across devices.
 
-### Functional requirements.
-- User authentication.
-- Voice and text conversations.
-- Conversation memory.
-- Document upload and retrieval.
-- Web search integration.
-- User settings and profile management.
+### Privacy and Consent
+- User control of data.
+
+### Usability
+- Simple, consistent across devices.
+
+## Functional Requirements
+
+### User Authentication
+- Users can sign up, log in, and log out securely.
 
 ### Voice and Text Conversations
-- Users can send and receive text messages with the AI.
-- Users can speak to the AI using voice input.
-- The AI responds in text, and optionally reads responses aloud.
-- Conversations feel natural and support follow-up questions.
+- Users can interact with the AI via typed messages or voice input.
+
+### Personal Onboarding Assessment
+- New users complete an onboarding flow to shape their AI rep's profile and behavior.
 
 ### Conversation Memory
-- The AI remembers key details from past conversations.
-- Users can reference earlier discussions without repeating context.
-- Users can view or clear their conversation history.
+- The AI retains long-term memory of past conversations.
+- Users can view their conversation history.
+- Users can clear their conversation history.
 
 ### Document Upload and Retrieval
-- Users can upload documents (e.g., PDFs, text files).
-- The AI can read and understand uploaded document content.
-- Users can ask questions about their uploaded documents.
-- The AI retrieves relevant sections instead of the entire document.
+- Users can upload documents.
+- The AI can retrieve and reference relevant document content.
 
 ### Web Search Integration
-- The AI can search the web when it needs current information.
-- Search results are summarized clearly for the user.
-- The AI distinguishes between its own knowledge and web-sourced info.
+- The AI can search the web for current information when needed.
 
 ### User Settings and Profile Management
-- Users can update their profile details.
-- Manage preferences (e.g., voice on/off, notification settings).
-- Users can delete their account and associated data.
+- Users can manage their account details and preferences.
+
+### AI Representative Profile Management
+- Users can create and edit their AI rep's profile.
+
+### Permission and Access Control
+- Users control what data and capabilities their AI rep can access.
