@@ -6,7 +6,7 @@
 
 ## Problem statement: Individuals today are represented online through scattered profiles, resumes, chats, and social posts, but none of these capture who they really are or how they think. As a result, people repeatedly explain themselves to friends, clients, or hiring managers and lack a personal memory system to track their own growth, skills, and updates over time. 
 
-## Objectives: Enable individuals to create a personal AI representative that reflects their identity and communication style. Reduce repetitive self-explanation by allowing others to interact with that representative. Provide a personal memory system where users can store, update, and track their growth and life updates over time. Create a personal onboarding assessment to capture personality, preferences, goals, values, and communication style. Ensure secure, user-controlled data and permissions.
+## Objectives: Enable individuals to create a personal AI representative that reflects their identity and communication style. Reduce repetitive self-explanation by allowing others to interact with that representative. Provide a personal memory system where users can store, update, and track their growth and life updates over time. Create a personal onboarding assessment to capture identity, knowledge, personality, and communication style. Ensure secure, user-controlled data and permissions.
 
 ## Target users: individuals, students, professionals, and developers needing API integration.
 
