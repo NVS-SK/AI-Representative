@@ -31,7 +31,7 @@
 - Multi-language support.
 
 ## Long-Term Vision
-Beyond the current text and voice-based AI Representative, the long-term vision is for the AI rep to evolve into a visual avatar or VR-based experience that can communicate on behalf of the person in real time. This is not part of the current roadmap but represents the direction the product could grow toward as the underlying technology matures.
+Beyond the current text- and voice-based AI Representative, the long-term vision is for the AI rep to evolve into a visual avatar or VR-based experience that can communicate on behalf of the person in real time. This is not part of the current roadmap but represents the direction the product could grow toward as the underlying technology matures.
 ## Non-Functional Requirements
 
 ### Performance
@@ -53,7 +53,7 @@ Beyond the current text and voice-based AI Representative, the long-term vision 
 - User control of data.
 
 ### Usability
-- Simple, consistent across devices.
+- Simple and consistent across devices.
 
 ## Functional Requirements
 *Note: This section describes full intended product behavior. Some items (e.g., Web Search Integration) are planned as Future Features and are not part of the current MVP.*
@@ -136,3 +136,58 @@ The system follows a modular architecture where the front end, back end, AI mode
 
 ### Hosting & Infrastructure
 - Render or Railway.
+
+## Roadmap
+
+### Phase 1: Planning & Documentation
+- Define PRD, SRS, Architecture, and Roadmap.
+- Finalize tech stack and system design.
+- Set up GitHub repository and project structure.
+
+### Phase 2: Core Backend & Data Layer
+- Set up FastAPI backend and PostgreSQL database.
+- Implement user authentication.
+- Set up pgvector for memory and document retrieval.
+
+### Phase 3: AI Rep Core Experience
+- Build onboarding assessment flow.
+- Integrate GPT API for text conversations.
+- Implement basic long-term memory and conversation history.
+
+### Phase 4: Frontend & Voice
+- Build Flutter frontend for chat, onboarding, and profile management.
+- Add basic voice input and output.
+- Connect frontend to backend APIs.
+
+### Phase 5: Documents & Permissions
+- Implement document upload and retrieval.
+- Add user-controlled permissions and access settings.
+
+### Phase 6: Testing & Launch Prep
+- Internal testing of full user flow (sign up through chat).
+- Fix bugs and polish core experience.
+- Deploy backend and database to Railway.
+
+### Phase 7: MVP Launch
+- Release MVP to first users.
+- Collect feedback against Success Metrics.
+- Prioritize Future Features based on real usage.
+
+## Success Metrics
+
+### MVP Validation
+- Users complete the onboarding assessment and successfully create an AI rep.
+- Users return to chat with their AI rep more than once (basic retention).
+- Users upload at least one document and receive relevant responses based on it.
+
+### Quality Indicators
+- AI responses reflect the user's identity, tone, and communication style accurately (based on user feedback).
+- Low rate of reported errors or broken conversations.
+
+### Engagement
+- Average number of conversations per active user per week.
+- Percentage of users who update or add to their AI rep's memory over time.
+
+### Growth (Post-MVP)
+- Number of users who share or publish their AI rep once that feature launches.
+- User referrals or organic growth from shared AI rep links.
