@@ -8,7 +8,7 @@
 
 ## Objectives: Enable individuals to create a personal AI representative that reflects their identity and communication style. Reduce repetitive self-explanation by allowing others to interact with that representative. Provide a personal memory system where users can store, update, and track their growth and life updates over time. Create a personal onboarding assessment to capture identity, knowledge, personality, and communication style. Ensure secure, user-controlled data and permissions.
 
-## Target users: individuals, students, professionals, and developers needing API integration.
+## Target users: individuals who want a personal AI representative that reflects their identity and style; students tracking skills and growth; professionals presenting their background and communication style; freelancers and creators showcasing their work; and later, developers or businesses using APIs and integrations.
 
 ## MVP Features
 
