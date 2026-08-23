@@ -97,3 +97,14 @@ Beyond the current text and voice-based AI Representative, the long-term vision 
 7. Share or publish. *(Future)*
 
 *Note: "Share or publish" reflects the long-term vision for AI Representative and is planned as a Future Feature, not part of MVP.*
+
+## System Architecture
+The system follows a modular architecture where the front end, back end, AI model layer, memory system, document retrieval system, and external tool layer work together.
+
+- **Frontend** provides the user interface for sign up, onboarding, chat, document upload, profile settings, and AI rep management.
+- **Backend** handles authentication, user data, permissions, conversation requests, and communication between modules.
+- **AI Model Layer** processes conversations and generates responses.
+- **Memory System** stores important user details over time.
+- **Document Retrieval** reads and fetches relevant content.
+- **External Tool Layer** supports future integrations.
+- **Database and Storage** securely hold profiles, conversations, memory data, documents, and settings.
