@@ -26,14 +26,16 @@
 - Advanced long-term memory.
 - Modular plugin system.
 - API integrations.
-- Website and portfolio embeds.
+- Sharing and publishing (public profile links, website and portfolio embeds).
 - Advanced analytics.
 - Multi-language support.
 
+## Long-Term Vision
+Beyond the current text and voice-based AI Representative, the long-term vision is for the AI rep to evolve into a visual avatar or VR-based experience that can communicate on behalf of the person in real time. This is not part of the current roadmap but represents the direction the product could grow toward as the underlying technology matures.
 ## Non-Functional Requirements
 
 ### Performance
-- Low latency responses.
+- Low-latency responses.
 - Smooth voice interactions.
 
 ### Security
