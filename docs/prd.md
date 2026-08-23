@@ -11,14 +11,24 @@
 ## Target users: individuals who want a personal AI representative that reflects their identity and style; students tracking skills and growth; professionals presenting their background and communication style; freelancers and creators showcasing their work; and later, developers or businesses using APIs and integrations.
 
 ## MVP Features
+- User account and authentication. Users can sign up, log in, and securely access their personal AI rep.
+- Personal onboarding assessment.
+- AI rep profile creation.
+- Real-time text and basic voice chat.
+- Basic long-term memory.
+- Conversation history.
+- Simple document upload and retrieval.
+- User-controlled permissions.
 
-- real-time voice and text chat
-- user accounts and authentication
-- basic conversation history
-- simple document upload with text retrieval Add another heading for future features
-- tool integration like web search
-- advanced long-term memory
-- modular plugin system.
+## Future Features
+- Web search integration.
+- External tool integration.
+- Advanced long-term memory.
+- Modular plugin system.
+- API integrations.
+- Website and portfolio embeds.
+- Advanced analytics.
+- Multi-language support.
 
 ## Non-functional requirements
 
